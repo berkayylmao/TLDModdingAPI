@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GenericHelpers">
+      <UniqueIdentifier>{c9c1502e-ddbf-4fa8-84c8-05314929ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\fmt">
+      <UniqueIdentifier>{8b7d17fd-3df2-43f0-8464-5567d08b0045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\Logger">
+      <UniqueIdentifier>{4f24ade8-9040-4a14-aac2-3180f573bab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\Memory">
+      <UniqueIdentifier>{748ad857-d51b-4061-bc24-a590eb04f940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\Dear ImGui">
+      <UniqueIdentifier>{8cc8fe4c-78b2-45db-aba2-7fef4bf6346a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\Dear ImGui\Implementations">
+      <UniqueIdentifier>{5086758b-9ae3-42b9-b9a9-4aac17a09d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericHelpers\stb">
+      <UniqueIdentifier>{21f2ffd2-2795-44fd-8bb6-25d234e071c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui.cpp">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui_demo.cpp">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui_draw.cpp">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui_widgets.cpp">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_dx9.cpp">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_dx11.cpp">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_win32.cpp">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\format.cc">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\core.h">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Memory\DetourHook.hpp">
+      <Filter>GenericHelpers\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\format.h">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\format-inl.h">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imconfig.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imgui_internal.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imstb_rectpack.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imstb_textedit.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\imstb_truetype.h">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_win32.h">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_dx9.h">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Implementations\imgui_impl_dx11.h">
+      <Filter>GenericHelpers\Dear ImGui\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Logger\LoggerHelper.hpp">
+      <Filter>GenericHelpers\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\Memory\MemoryHelper.hpp">
+      <Filter>GenericHelpers\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\printf.h">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\ostream.h">
+      <Filter>GenericHelpers\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericHelpers\stb\stb_sprintf.h">
+      <Filter>GenericHelpers\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GenericHelpers.licenseheader" />
+    <None Include="$(MSBuildThisFileDirectory)GenericHelpers\fmt\fmt.licenseheader">
+      <Filter>GenericHelpers\fmt</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GenericHelpers\Dear ImGui\Dear ImGui.licenseheader">
+      <Filter>GenericHelpers\Dear ImGui</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GenericHelpers\stb\stb.licenseheader">
+      <Filter>GenericHelpers\stb</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Internals">
+      <UniqueIdentifier>{87a6f9b7-072d-416f-a5ed-79dbe8935903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_default">
+      <UniqueIdentifier>{cf8bfcac-481f-4032-b22d-cc8de73a387d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internals\Menus">
+      <UniqueIdentifier>{c45eeaca-99bc-4d61-b6f0-157487b20513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internals\Hooks">
+      <UniqueIdentifier>{f2b3a2fb-ed94-4c2e-8127-39d5e22596e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>_default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Internals\Internals.hpp">
+      <Filter>Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>_default</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>_default</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals\Menus\BaseMenu.hpp">
+      <Filter>Internals\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals\Menus\D3D9Menu.hpp">
+      <Filter>Internals\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals\Menus\D3D11Menu.hpp">
+      <Filter>Internals\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals\Hooks\HookGameManager_Update.hpp">
+      <Filter>Internals\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Internals\Menus\MenuSubscriber.hpp">
+      <Filter>Internals\Menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TLDModdingAPI.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TLDModdingAPI.rc">
+      <Filter>_default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
